@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} mx-auto max-w-2xl py-8`}
+        className={`${geistSans.variable} ${geistMono.variable} mx-auto max-w-2xl py-8 px-4`}
       >
         <h1 className="text-4xl font-bold">Pokemon Story Generator</h1>
         <hr className="mb-8 border-b-2 border-black" />
